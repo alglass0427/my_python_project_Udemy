@@ -1,1 +1,48 @@
-*.txt
+Python docs
+https://docs.python.org/3/library/
+https://docs.python.org/3/library/__main__.html
+
+Minimal Flask Application
+
+https://flask.palletsprojects.com/en/2.3.x/quickstart/
+
+
+---------------------------------------
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route("/")
+def hello_world():
+    return "<p>Hello, World!</p>"
+
+----------------------------------------
+
+Kernel -  What interacts With the  Hardware
+
+Shell -  What User Operates
+
+Command
+
+https://www.cs.columbia.edu/~sedwards/classes/2017/1102-spring/Command%20Prompt%20Cheatsheet.pdf
+
+
+pwd -  print working directory
+ls - lists all files and folders in current working directory
+cd  -  change directory
+        .. -  back one directory        --> Parent Folder
+        Folder_Name  - enters into folders
+mkdir - make directory - Creates new fo;directory
+touch  - creates new files
+            touch main.py -  creates a new python file
+                change extension
+
+rm  - removes file  -   rm main.py -  deletes main.py file
+re -rf   --> removes folders  - -  CAREFUL -   RECURSIVE  -  will delete all folders contained
+
+
+
+
+
+GET -->
+POST--> 
